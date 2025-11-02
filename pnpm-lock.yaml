@@ -8,8 +8,11 @@ importers:
 
   .:
     dependencies:
+      '@arcjet/inspect':
+        specifier: ^1.0.0-beta.13
+        version: 1.0.0-beta.13
       '@arcjet/next':
-        specifier: 1.0.0-beta.13
+        specifier: ^1.0.0-beta.13
         version: 1.0.0-beta.13(next@15.3.1(@babel/core@7.26.10)(@opentelemetry/api@1.9.0)(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
       '@aws-sdk/client-rds-data':
         specifier: latest
@@ -311,6 +314,10 @@ packages:
 
   '@arcjet/headers@1.0.0-beta.13':
     resolution: {integrity: sha512-pMU6JI/Ftub6zwvOioFQKiy6B6qbWNq/q6s/K62PNRjcfEtzuamwbxuHUIG1i42TIFEIfcSZ0jXNHnsEL5wq+A==}
+    engines: {node: '>=18'}
+
+  '@arcjet/inspect@1.0.0-beta.13':
+    resolution: {integrity: sha512-7bE4VP4+fa9nJvSl3efRWmG31ClibyRIoO1sPe4hE+Stx68uE4LwK6CZfkB/1XP4sggWsQGQ2PNkC1fM3qmMog==}
     engines: {node: '>=18'}
 
   '@arcjet/ip@1.0.0-beta.13':
@@ -7289,6 +7296,10 @@ snapshots:
   '@arcjet/env@1.0.0-beta.13': {}
 
   '@arcjet/headers@1.0.0-beta.13': {}
+
+  '@arcjet/inspect@1.0.0-beta.13':
+    dependencies:
+      '@arcjet/protocol': 1.0.0-beta.13
 
   '@arcjet/ip@1.0.0-beta.13': {}
 
