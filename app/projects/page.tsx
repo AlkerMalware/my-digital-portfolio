@@ -40,6 +40,83 @@ export default async function ProjectsPage() {
 
       <section className="w-full py-12 md:py-24 lg:py-32 bg-background">
         <div className="container px-4 md:px-6">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+            <div className="space-y-2">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Penetration Testing Results</h2>
+              <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
+                Recent security assessments and vulnerability findings.
+              </p>
+            </div>
+          </div>
+          
+          <div className="grid gap-6 lg:grid-cols-2">
+             <Card>
+               <CardHeader>
+                 <CardTitle>Financial Services App Audit</CardTitle>
+                 <CardDescription>Comprehensive black-box penetration test</CardDescription>
+               </CardHeader>
+               <CardContent>
+                 <div className="space-y-4">
+                   <div className="flex justify-between items-center border-b pb-2">
+                     <span className="font-medium">Target</span>
+                     <span className="text-muted-foreground">fintech-app.example.com</span>
+                   </div>
+                   <div className="flex justify-between items-center border-b pb-2">
+                     <span className="font-medium">Date</span>
+                     <span className="text-muted-foreground">October 15, 2025</span>
+                   </div>
+                   <div className="flex justify-between items-center border-b pb-2">
+                     <span className="font-medium">Risk Rating</span>
+                     <span className="text-red-500 font-bold">High</span>
+                   </div>
+                   <div>
+                     <h4 className="font-medium mb-2">Key Findings:</h4>
+                     <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
+                       <li>SQL Injection in search parameter (Critical)</li>
+                       <li>Broken Access Control in admin panel (High)</li>
+                       <li>Sensitive Data Exposure in API response (Medium)</li>
+                     </ul>
+                   </div>
+                 </div>
+               </CardContent>
+             </Card>
+             
+             <Card>
+               <CardHeader>
+                 <CardTitle>Healthcare Portal Assessment</CardTitle>
+                 <CardDescription>Gray-box security assessment</CardDescription>
+               </CardHeader>
+               <CardContent>
+                 <div className="space-y-4">
+                   <div className="flex justify-between items-center border-b pb-2">
+                     <span className="font-medium">Target</span>
+                     <span className="text-muted-foreground">patient-portal.hospital.org</span>
+                   </div>
+                   <div className="flex justify-between items-center border-b pb-2">
+                     <span className="font-medium">Date</span>
+                     <span className="text-muted-foreground">November 02, 2025</span>
+                   </div>
+                   <div className="flex justify-between items-center border-b pb-2">
+                     <span className="font-medium">Risk Rating</span>
+                     <span className="text-yellow-500 font-bold">Medium</span>
+                   </div>
+                   <div>
+                     <h4 className="font-medium mb-2">Key Findings:</h4>
+                     <ul className="list-disc list-inside text-sm text-muted-foreground space-y-1">
+                       <li>Stored XSS in profile comments (Medium)</li>
+                       <li>Weak Password Policy (Low)</li>
+                       <li>Missing Security Headers (Low)</li>
+                     </ul>
+                   </div>
+                 </div>
+               </CardContent>
+             </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="w-full py-12 md:py-24 lg:py-32 bg-muted/50">
+        <div className="container px-4 md:px-6">
           <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-3">
             {/* Ensure projects is an array before mapping */}
             {Array.isArray(projects) && projects.map((project) => {

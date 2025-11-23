@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { UserRoleManagement } from "@/components/user-role-management";
+import { SecurityDashboard } from "@/components/security-dashboard";
 import Link from "next/link";
 import { Database } from "lucide-react";
 
@@ -19,10 +20,15 @@ export default async function AdminPage() {
   }
 
   return (
-    <div className="container py-12">
-      <h1 className="text-3xl font-bold mb-8">Admin Dashboard</h1>
+    <div className="container py-12 space-y-8">
+      <div className="flex flex-col space-y-2">
+        <h1 className="text-3xl font-bold">Executive Security Dashboard</h1>
+        <p className="text-muted-foreground">Real-time overview of security posture and system health.</p>
+      </div>
 
-      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 mb-8">
+      <SecurityDashboard />
+
+      <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {/* Database Tools Card */}
         <Card>
           <CardHeader>
@@ -42,7 +48,7 @@ export default async function AdminPage() {
         </Card>
       </div>
 
-      <Card className="mb-8">
+      <Card>
         <CardHeader>
           <CardTitle>User Management</CardTitle>
           <CardDescription>View and manage user roles.</CardDescription>
