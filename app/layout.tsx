@@ -18,8 +18,8 @@ import { AuthSync } from "@/components/auth-sync";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CyberShield | Cybersecurity Portfolio",
-  description: "Professional portfolio showcasing expertise in cybersecurity",
+  title: "Harwinder S. Singh | Portfolio",
+  description: "Professional portfolio showcasing expertise in software development, programming, debugging, and problem solving.",
     generator: 'v0.dev'
 }
 
