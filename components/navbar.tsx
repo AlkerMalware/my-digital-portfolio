@@ -19,8 +19,8 @@ export default function Navbar() {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/about", label: "About" },
-    { href: "/projects", label: "Research" },
-    { href: "/tools", label: "Tools" },
+    { href: "/security", label: "Security" },
+    { href: "/mcp-integration", label: "MCP Integration" },
     { href: "/exclusive", label: "Exclusive Content" },
     { href: "/contact", label: "Contact" },
   ];
