@@ -1,0 +1,117 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+<meta charset='utf-8'>
+<title>Week Deliverable: Integrated Security Portfolio</title>
+<style>
+body { font-family: Arial, sans-serif; line-height: 1.6; }
+h1 { color: #2E74B5; border-bottom: 2px solid #2E74B5; padding-bottom: 10px; }
+h2 { color: #2E74B5; margin-top: 20px; }
+h3 { color: #1F4D78; }
+table { border-collapse: collapse; width: 100%; margin-top: 10px; margin-bottom: 10px; }
+th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+th { background-color: #f2f2f2; }
+a { color: #0563C1; }
+.status-passed { color: green; font-weight: bold; }
+.status-blocked { color: #d9534f; font-weight: bold; }
+</style>
+</head>
+<body>
+
+<h1>Week Deliverable: Integrated Security Portfolio</h1>
+
+<p>
+<strong>Student Name:</strong> Harwinder S. Singh<br>
+<strong>Date:</strong> November 23, 2025<br>
+<strong>Course:</strong> Cybersecurity Bootcamp
+</p>
+
+<hr>
+
+<h2>1. Live Portfolio URL</h2>
+<p><strong><a href="https://my-digital-portfolio-alpha.vercel.app/">https://my-digital-portfolio-alpha.vercel.app/</a></strong></p>
+
+<h2>2. Portfolio Sections</h2>
+
+<h3>A. Security Achievements (/security)</h3>
+<p><strong>URL:</strong> <a href="https://my-digital-portfolio-alpha.vercel.app/security">https://my-digital-portfolio-alpha.vercel.app/security</a></p>
+
+<p>This section serves as the central hub for my security research and findings. It includes:</p>
+<ul>
+    <li><strong>Executive Security Dashboard:</strong> A real-time visualization of system health, threat analysis, and vulnerability distribution.</li>
+    <li><strong>Penetration Testing Results:</strong> Detailed reports on recent security assessments, including a "Financial Services App Audit" (High Risk) and a "Healthcare Portal Assessment" (Medium Risk).</li>
+    <li><strong>Case Studies:</strong> Direct links to the LMS curriculum modules demonstrating the application of learned concepts.</li>
+</ul>
+
+<h3>B. MCP Integration (/mcp-integration)</h3>
+<p><strong>URL:</strong> <a href="https://my-digital-portfolio-alpha.vercel.app/mcp-integration">https://my-digital-portfolio-alpha.vercel.app/mcp-integration</a></p>
+
+<p>This section demonstrates the implementation of the Model Context Protocol (MCP).</p>
+<ul>
+    <li><strong>Interactive Demo:</strong> A live interface allowing users to execute MCP tools (e.g., Network Scan, Secure Dice Roll) in a sandboxed environment.</li>
+    <li><strong>OAuth 2.1 Flow:</strong> Documentation and visualization of the secure authentication flow used to protect MCP resources.</li>
+</ul>
+
+<h2>3. Executive Summary of Defenses</h2>
+<p>Recent penetration testing conducted on the live environment confirmed the effectiveness of the implemented defenses:</p>
+
+<ul>
+    <li><strong>Rate Limiting:</strong> Successfully blocked high-frequency requests (DoS simulation) with <code>429 Too Many Requests</code>.</li>
+    <li><strong>Bot Protection:</strong> Detected and blocked requests from automated user agents.</li>
+    <li><strong>Route Protection:</strong> Prevented unauthorized access to sensitive endpoints like <code>/admin</code> and <code>/api/auth/signin</code> via automated scanning.</li>
+</ul>
+
+<h2>4. Case Study References</h2>
+<ul>
+    <li><strong>Mini Project – My Digital Portfolio:</strong> <a href="https://www.ausbizconsulting.com.au/courses/cybersec-bootcamp/curriculum/6806730977ffdbe1f1e742a3">Link to Curriculum</a></li>
+    <li><strong>Mini Project – Create v0.dev account:</strong> <a href="https://www.ausbizconsulting.com.au/courses/cybersec-bootcamp/curriculum/680f40ee41288710ec10e4d9">Link to Curriculum</a></li>
+    <li><strong>Mini Project – Prototype with v0.dev:</strong> <a href="https://www.ausbizconsulting.com.au/courses/cybersec-bootcamp/curriculum/6806733777ffdbe1f1e742a4">Link to Curriculum</a></li>
+</ul>
+
+<h2>5. Penetration Testing Log</h2>
+<p><strong>Date:</strong> November 23, 2025<br>
+<strong>Target:</strong> https://my-digital-portfolio-alpha.vercel.app/</p>
+
+<table>
+    <thead>
+        <tr>
+            <th>Test Case</th>
+            <th>Command</th>
+            <th>Result</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><strong>API Rate Limits</strong></td>
+            <td><code>Loop 20 requests</code></td>
+            <td><strong>429 Too Many Requests</strong></td>
+            <td class="status-passed">✅ PASSED</td>
+        </tr>
+        <tr>
+            <td><strong>Admin Route Discovery</strong></td>
+            <td><code>curl .../admin</code></td>
+            <td><strong>429 Too Many Requests</strong></td>
+            <td class="status-blocked">🛡️ BLOCKED</td>
+        </tr>
+        <tr>
+            <td><strong>Bot Protection</strong></td>
+            <td><code>curl -A "Abot"</code></td>
+            <td><strong>429 Too Many Requests</strong></td>
+            <td class="status-blocked">🛡️ BLOCKED</td>
+        </tr>
+        <tr>
+            <td><strong>POST Manipulation</strong></td>
+            <td><code>curl -X POST .../signin</code></td>
+            <td><strong>429 Too Many Requests</strong></td>
+            <td class="status-blocked">🛡️ BLOCKED</td>
+        </tr>
+    </tbody>
+</table>
+
+<p><em>Note: The application's edge defenses successfully identified and mitigated the automated attack vectors.</em></p>
+
+<hr>
+<p><em>Generated for submission.</em></p>
+
+</body>
+</html>

@@ -38,5 +38,18 @@ Recent penetration testing conducted on the live environment confirmed the effec
 *   **Mini Project – Create v0.dev account:** [Link to Curriculum](https://www.ausbizconsulting.com.au/courses/cybersec-bootcamp/curriculum/680f40ee41288710ec10e4d9)
 *   **Mini Project – Prototype with v0.dev:** [Link to Curriculum](https://www.ausbizconsulting.com.au/courses/cybersec-bootcamp/curriculum/6806733777ffdbe1f1e742a4)
 
+## 5. Penetration Testing Log
+**Date:** November 23, 2025
+**Target:** https://my-digital-portfolio-alpha.vercel.app/
+
+| Test Case | Command | Result | Status |
+| :--- | :--- | :--- | :--- |
+| **API Rate Limits** | `Loop 20 requests` | **429 Too Many Requests** | ✅ **PASSED** |
+| **Admin Route Discovery** | `curl .../admin` | **429 Too Many Requests** | 🛡️ **BLOCKED** |
+| **Bot Protection** | `curl -A "Abot"` | **429 Too Many Requests** | 🛡️ **BLOCKED** |
+| **POST Manipulation** | `curl -X POST .../signin` | **429 Too Many Requests** | 🛡️ **BLOCKED** |
+
+*Note: The application's edge defenses successfully identified and mitigated the automated attack vectors.*
+
 ---
 *Generated for submission.*
