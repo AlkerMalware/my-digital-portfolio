@@ -12,7 +12,7 @@ export default function AboutPage() {
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl text-white">About Me</h1>
               <p className="max-w-[700px] text-gray-400 md:text-xl/relaxed">
-                Cybersecurity professional with over 15 years of experience protecting organizations from evolving
+                Cybersecurity professional with extensive experience protecting organizations from evolving
                 threats.
               </p>
             </div>
@@ -29,7 +29,7 @@ export default function AboutPage() {
           <div className="grid gap-10 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_500px]">
             <div className="flex flex-col justify-center space-y-6">
               <div className="space-y-2">
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">John Smith</h2>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Harwinder S. Singh</h2>
                 <p className="text-xl text-muted-foreground">
                   <span className="text-primary font-semibold">Cybersecurity Consultant & Penetration Tester</span>
                 </p>
@@ -37,7 +37,7 @@ export default function AboutPage() {
               <div className="space-y-4">
                 <p className="text-muted-foreground">
                   I am a dedicated cybersecurity professional with a passion for helping organizations strengthen their
-                  security posture and protect their valuable digital assets. With over 15 years of experience in the
+                  security posture and protect their valuable digital assets. With extensive experience in the
                   industry, I have worked with clients across various sectors, from financial services and healthcare to
                   government and technology.
                 </p>
@@ -61,7 +61,7 @@ export default function AboutPage() {
                 <div className="relative overflow-hidden rounded-xl border border-primary/20 bg-background p-2">
                   <Image
                     src="/cyber-guardian.png"
-                    alt="John Smith - Cybersecurity Professional"
+                    alt="Harwinder S. Singh - Cybersecurity Professional"
                     width={500}
                     height={500}
                     className="rounded-lg object-cover w-full h-full"
