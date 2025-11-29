@@ -153,88 +153,88 @@ export default function AboutPage() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
             <div className="space-y-2">
               <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Expertise</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Skills & Specializations</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Skills & Competencies</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
-                Core competencies and specialized knowledge areas in cybersecurity.
+                Core competencies and specialized knowledge areas I am developing.
               </p>
             </div>
           </div>
 
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <div className="space-y-4">
-              <h3 className="text-xl font-bold">Penetration Testing</h3>
+              <h3 className="text-xl font-bold">Technical Skills</h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Web Application Testing</span>
+                  <span>Network Security Fundamentals</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Network Infrastructure Testing</span>
+                  <span>Vulnerability Assessment</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Mobile Application Testing</span>
+                  <span>Linux System Administration</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Social Engineering Assessments</span>
+                  <span>Python for Security</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Red Team Operations</span>
+                  <span>Basic Penetration Testing</span>
                 </li>
               </ul>
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-bold">Security Architecture</h3>
+              <h3 className="text-xl font-bold">Security Concepts</h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Zero Trust Architecture</span>
+                  <span>CIA Triad & Security Principles</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Cloud Security Design</span>
+                  <span>Risk Management Frameworks</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Network Security Design</span>
+                  <span>Access Control Models</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Identity & Access Management</span>
+                  <span>Cryptography Basics</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Secure SDLC Implementation</span>
+                  <span>Security Compliance</span>
                 </li>
               </ul>
             </div>
 
             <div className="space-y-4">
-              <h3 className="text-xl font-bold">Incident Response</h3>
+              <h3 className="text-xl font-bold">Tools & Technologies</h3>
               <ul className="space-y-2">
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Digital Forensics</span>
+                  <span>Wireshark & Nmap</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Malware Analysis</span>
+                  <span>Burp Suite Community</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Threat Hunting</span>
+                  <span>Metasploit Framework</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Incident Response Planning</span>
+                  <span>SIEM Tools (Splunk/ELK)</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <CheckCircle className="h-4 w-4 text-primary" />
-                  <span>Breach Containment & Recovery</span>
+                  <span>Virtualization (VMware/VirtualBox)</span>
                 </li>
               </ul>
             </div>
@@ -247,10 +247,10 @@ export default function AboutPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
             <div className="space-y-2">
-              <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Career</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Professional Experience</h2>
+              <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Journey</div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">My Journey</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
-                My journey through the cybersecurity industry.
+                My path into the world of cybersecurity.
               </p>
             </div>
           </div>
@@ -262,17 +262,16 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-[calc(50%-4rem)] bg-background p-5 rounded-lg border border-primary/20 shadow-sm">
                 <div className="flex items-center justify-between space-x-2 mb-1">
-                  <h3 className="font-bold text-lg">Principal Security Consultant</h3>
+                  <h3 className="font-bold text-lg">Cybersecurity Student</h3>
                   <time className="font-semibold text-primary flex items-center">
                     <Calendar className="h-4 w-4 mr-1" />
-                    2018 - Present
+                    2024 - Present
                   </time>
                 </div>
-                <p className="text-muted-foreground mb-2">CyberShield Consulting</p>
+                <p className="text-muted-foreground mb-2">Intensive Bootcamp Program</p>
                 <p className="text-sm text-muted-foreground">
-                  Leading complex security assessments and penetration tests for Fortune 500 clients. Developing custom
-                  security frameworks and methodologies. Mentoring junior security consultants and delivering executive
-                  briefings on critical security findings.
+                  Immersed in a rigorous curriculum covering network security, ethical hacking, and defense strategies.
+                  Completing hands-on labs and real-world simulation projects to build practical skills.
                 </p>
               </div>
             </div>
@@ -283,38 +282,16 @@ export default function AboutPage() {
               </div>
               <div className="w-full md:w-[calc(50%-4rem)] bg-background p-5 rounded-lg border border-primary/20 shadow-sm">
                 <div className="flex items-center justify-between space-x-2 mb-1">
-                  <h3 className="font-bold text-lg">Senior Security Engineer</h3>
+                  <h3 className="font-bold text-lg">Self-Directed Learning</h3>
                   <time className="font-semibold text-primary flex items-center">
                     <Calendar className="h-4 w-4 mr-1" />
-                    2014 - 2018
+                    2023 - 2024
                   </time>
                 </div>
-                <p className="text-muted-foreground mb-2">SecureTech Solutions</p>
+                <p className="text-muted-foreground mb-2">Independent Study</p>
                 <p className="text-sm text-muted-foreground">
-                  Designed and implemented security architectures for cloud migrations. Led vulnerability management
-                  program and security operations center (SOC) initiatives. Conducted internal security assessments and
-                  developed remediation strategies.
-                </p>
-              </div>
-            </div>
-
-            <div className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
-              <div className="flex items-center justify-center w-10 h-10 rounded-full border border-primary/20 bg-background shadow-sm z-10 md:group-odd:ml-8 md:group-even:mr-8">
-                <Briefcase className="h-5 w-5 text-primary" />
-              </div>
-              <div className="w-full md:w-[calc(50%-4rem)] bg-background p-5 rounded-lg border border-primary/20 shadow-sm">
-                <div className="flex items-center justify-between space-x-2 mb-1">
-                  <h3 className="font-bold text-lg">Security Analyst</h3>
-                  <time className="font-semibold text-primary flex items-center">
-                    <Calendar className="h-4 w-4 mr-1" />
-                    2010 - 2014
-                  </time>
-                </div>
-                <p className="text-muted-foreground mb-2">Global Financial Services</p>
-                <p className="text-sm text-muted-foreground">
-                  Performed security monitoring and incident response for a major financial institution. Conducted
-                  vulnerability assessments and security awareness training. Assisted in developing security policies
-                  and procedures.
+                  Started exploring cybersecurity concepts through online resources, TryHackMe rooms, and setting up
+                  home labs. Built foundational knowledge in networking and operating systems.
                 </p>
               </div>
             </div>
