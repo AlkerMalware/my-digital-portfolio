@@ -75,10 +75,10 @@ export default function AboutPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center mb-10">
             <div className="space-y-2">
-              <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Credentials</div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Certifications & Education</h2>
+              <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Education</div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Education & Learning Path</h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
-                Professional qualifications and academic background that inform my expertise.
+                Current academic pursuits and certification goals.
               </p>
             </div>
           </div>
@@ -87,59 +87,59 @@ export default function AboutPage() {
             <Card className="bg-background border-primary/20">
               <CardHeader className="pb-2">
                 <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
-                  <Award className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>CISSP</CardTitle>
-                <CardDescription>Certified Information Systems Security Professional</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-muted-foreground">
-                  Globally recognized certification demonstrating expertise across eight security domains.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-background border-primary/20">
-              <CardHeader className="pb-2">
-                <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
-                  <Award className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>OSCP</CardTitle>
-                <CardDescription>Offensive Security Certified Professional</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-muted-foreground">
-                  Hands-on penetration testing certification proving practical exploitation skills.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-background border-primary/20">
-              <CardHeader className="pb-2">
-                <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
-                  <Award className="h-6 w-6 text-primary" />
-                </div>
-                <CardTitle>CCSP</CardTitle>
-                <CardDescription>Certified Cloud Security Professional</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-sm text-muted-foreground">
-                  Specialized certification in cloud security architecture, design, and operations.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="bg-background border-primary/20">
-              <CardHeader className="pb-2">
-                <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
                   <GraduationCap className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle>M.S. Cybersecurity</CardTitle>
-                <CardDescription>Stanford University</CardDescription>
+                <CardTitle>Cybersecurity Bootcamp</CardTitle>
+                <CardDescription>Intensive Training Program</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-sm text-muted-foreground">
-                  Advanced degree with focus on security architecture and threat intelligence.
+                  Comprehensive curriculum covering network security, ethical hacking, and defense strategies.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-background border-primary/20">
+              <CardHeader className="pb-2">
+                <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
+                  <Award className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle>CompTIA Security+</CardTitle>
+                <CardDescription>Certification Goal</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  Preparing for this foundational certification to validate core security knowledge.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-background border-primary/20">
+              <CardHeader className="pb-2">
+                <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
+                  <Award className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle>Network+</CardTitle>
+                <CardDescription>Certification Goal</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  Studying network architecture and operations to build a strong technical foundation.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-background border-primary/20">
+              <CardHeader className="pb-2">
+                <div className="bg-primary/10 p-3 w-fit rounded-lg mb-4">
+                  <Briefcase className="h-6 w-6 text-primary" />
+                </div>
+                <CardTitle>Hands-on Labs</CardTitle>
+                <CardDescription>Practical Application</CardDescription>
+              </CardHeader>
+              <CardContent>
+                <p className="text-sm text-muted-foreground">
+                  Regularly practicing skills through virtual labs, CTFs, and project-based learning.
                 </p>
               </CardContent>
             </Card>
