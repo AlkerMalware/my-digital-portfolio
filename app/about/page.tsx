@@ -36,22 +36,19 @@ export default function AboutPage() {
               </div>
               <div className="space-y-4">
                 <p className="text-muted-foreground">
-                  I am a dedicated cybersecurity professional with a passion for helping organizations strengthen their
-                  security posture and protect their valuable digital assets. With extensive experience in the
-                  industry, I have worked with clients across various sectors, from financial services and healthcare to
-                  government and technology.
+                  I am a dedicated cybersecurity student with a passion for learning how to help organizations strengthen their
+                  security posture and protect their valuable digital assets. Currently honing my skills through rigorous training
+                  and practical application, I am eager to apply my knowledge to real-world challenges.
                 </p>
                 <p className="text-muted-foreground">
-                  My approach combines technical expertise with a deep understanding of business needs, allowing me to
-                  develop security solutions that are both effective and practical. I believe that cybersecurity is not
-                  just about implementing technical controls, but also about building a culture of security awareness
-                  and resilience.
+                  My developing approach combines technical learning with an appreciation for business needs, aiming to create
+                  security solutions that are effective and practical. I believe that cybersecurity is not just about
+                  implementing technical controls, but also about building a culture of security awareness and resilience.
                 </p>
                 <p className="text-muted-foreground">
-                  Throughout my career, I have helped organizations identify and address security vulnerabilities,
-                  implement robust security programs, and respond effectively to security incidents. I am committed to
-                  staying at the forefront of the rapidly evolving cybersecurity landscape and sharing my knowledge with
-                  clients and the broader security community.
+                  Through my studies and projects, I am learning to identify and address security vulnerabilities, understand
+                  robust security programs, and how to respond effectively to security incidents. I am committed to staying
+                  at the forefront of the rapidly evolving cybersecurity landscape and continuously expanding my knowledge base.
                 </p>
               </div>
             </div>
